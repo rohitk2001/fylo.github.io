@@ -1,0 +1,124 @@
+h1{
+  font-family: 'Raleway', sans-serif;
+  line-height:1.5;
+  font-weight:600;
+}
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+}
+.navbar{
+  padding:3% 4%;
+  background-color:white;
+}
+.nav-item a{
+  font-family: 'Raleway', sans-serif;
+}
+
+.side-bar{
+  float:left;
+}
+
+.side-image{
+  float:right;
+  width:80%;
+}
+
+.container-fluid{
+  padding:7% 4%;
+}
+.main-body{
+  background-image:url("C:\Users\rohit\OneDrive\Desktop\Web Development\fylo-landing-page-with-two-column-layout-master\images\bg-curve-desktop.svg");
+}
+.hi{
+  height:35px;
+}
+
+.testimonial{
+  width:350px;
+}
+
+.testimg{
+  border-radius:50%;
+  width:40px;
+  height:40px;
+}
+.hk{
+  margin:0;
+}
+u{
+  color:green;
+}
+.cleft{
+  float:left;
+  width:45%;
+}
+.cright{
+  float:right;
+}
+.ib{
+  width:500px;
+}
+.foot{
+  background-color:#585989;
+  padding-bottom:250px;
+  color:white;
+}
+.footer{
+  margin-top:0px;
+  background-color:#070439;
+  color:white;
+}
+@media (max-width:1080px){
+  .container-fluid{
+    text-align:center;
+  }
+  .hi{
+    margin:auto;
+    display:block;
+    float:none;
+  }
+  .btn{
+    float:none;
+    margin-top:20px;
+
+  }
+  .testimonial{
+    margin: 0 auto;
+  }
+  .cleft{
+    margin:auto;
+    float:none;
+  }
+  .ib{
+    margin-top:20px;
+    text-align:center;
+  }
+  .foot{
+    padding-bottom:200px;
+  }
+  .cright{
+    float:none;
+    margin:auto;
+  }
+  .footer{
+    text-align:center;
+    margin:0 auto;
+  }
+  .a{
+    float:left;
+
+  }
+  .b{
+    float:left;
+
+  }
+  .c{
+    float:left;
+
+  }
+  .d{
+    float:left;
+
+  }
+}
